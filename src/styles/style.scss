@@ -1,9 +1,8 @@
-:root {
-    --primary-color: #00a8ff;
-    --text-color: #fff;
-    --green: #0e7134;
-    --blue-dark: #0972a6;
-}
+$primary-color: #00a8ff;
+$text-color: #fff;
+$green: #0e7134;
+$blue-dark: #0972a6;
+
 
 * {
     margin: 0;
@@ -12,15 +11,15 @@
 }
 
 body {
-    background-color: var(--primary-color);
+    background-color: $primary-color;
     font-family: 'Work Sans', sans-serif;
-    color: var(--text-color);
+    color: $text-color;
     line-height: 1.5em;
 
     .container {
         max-width: 700px;
         margin: 80px auto;
-        background-color: var(--blue-dark);
+        background-color: $blue-dark;
         padding: 30px;
         border-radius: 10px;
         text-align: center;
@@ -41,8 +40,8 @@ body {
             border-radius: 5px;
             padding: 10px 40px;
             margin-bottom: 20px;
-            color: var(--text-color);
-            background-color: var(--primary-color);
+            color: $text-color;
+            background-color: $primary-color;
         }
     }
 }
